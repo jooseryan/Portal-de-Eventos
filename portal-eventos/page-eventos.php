@@ -12,8 +12,8 @@ get_header();
 
     <?php
     $args = array(
-        'post_type'      => 'evento', // o slug do seu CPT
-        'posts_per_page' => -1        // mostra todos os eventos
+        'post_type'      => 'evento',
+        'posts_per_page' => -1        
     );
 
     $eventos = new WP_Query($args);
@@ -41,3 +41,4 @@ get_header();
 </main>
 
 <?php get_footer(); ?>
+
