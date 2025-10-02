@@ -20,7 +20,6 @@
     <?php 
       $tipo = get_field('tipo_de_evento');
 
-      // Se for CURSO
       if ($tipo == 'Curso') : ?>
         <h2>Informações do Curso</h2>
         <p><strong>Carga horária:</strong> <?php the_field('carga_horaria'); ?> horas</p>
@@ -55,3 +54,4 @@
 </main>
 
 <?php get_footer(); ?>
+
